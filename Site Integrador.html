@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> SOS Bairros Morungaba </title>
+        <meta charset ="utf-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <meta name="author"content="Jaqueline Nascimento Marques, Jorge Maurício da Silva e Lucas Aparecido Petroli">
+        <meta name="descriprion"content="Site criado com o intuito de relatar acontecimentos e atividades fora do normal em bairros e relatar casos de animais perdidos ou abandonados para contribuir para causas sociais!">
+        <meta name="keywords"content="bairro, acontecimentos, animais, causas sociais">
+        <link rel="stylesheet" type="text/css" href="Site Integrador.css" media="screen"
+        
+    </head>
+       
+    <body>
+
+        <h1> Cuidando do Nosso Bairro </h1>
+        <br>
+        <img src="imagens.html/png_20220503_213932_0000.png" alt="Imagem com fundo transparente e com uma vista de cima de várias pessoas juntando as mãos em sinal de união. Sobreposto está uma frase escrita de tonalidade azul escuro com as seguintes palavras: Juntos Somos + Fortes." height="400" width="800">
+        <br>
+        <p> Como funciona um bairro? Primeiramente, cada bairro tem suas particularidades e suas características específicas. Basicamente, as cidades precisam que as pessoas fabriquem, morem, trabalhem e consumam e, cada uma dessas atividades demandam um espaço com características particulares; é exatamente por isso que existem os bairros industriais, residenciais e comerciais. 
+            Trataremos especificamente dos bairros residenciais. Os bairros residenciais são aqueles em que há predomínio de residências e onde a região preza pelo conforto e lazer de seus moradores.
+        </p>
+         <p> Para melhorar a qualidade de vida de todos os moradores de um bairro, contamos exclusivamente com vários fatores, como por exemplo: saneamento básico, ter ruas e calçadas em bom estado, iluminação nas ruas, transporte público, reformas de praças, playgrounds, entre outras ações, todavia, não depende apenas do prefeito tomar providências para que o bairro se mantenha em perfeito estado e sim, precisamos contar com a ajuda de todas as pessoas para manter o bom funcionamento do local.
+        </p>
+         <p> Por inúmeros motivos, é fundamental fazermos nossa parte e relatarmos os acontecimentos anormais em nossos bairros para que os órgãos responsáveis tomem as devidas providências para o bem estar da população. O que seria esses acontecimentos? Pessoas que jogam lixos em locais inapropriados, queimadas, vandalismos em patrimônio público, roubos, entre outras ocorrências que achem prudente serem resolvidas.  </p>
+        
+        <form> 
+        <div class="campo">
+            <h2> <strong> Encontrou alguma atividade incomum em seu bairro? Relate aqui.</strong> </h2>
+        </div>
+        </form>
+<br>
+        <form action="Site Integrador.php" method="POST">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label> <strong> Nome do Nosso Bairro: </strong> </label>
+                    <input type="text" name="nomedobairro1" id="nomedobairro1" required>
+                </div>
+
+                <div class="campo">
+                    <label> <strong> Ocorrência: </strong> </label>
+                    <textarea pow="100" style="width:26em" id="ocorrencia" name="ocorrencia" required></textarea>
+                </div>
+                <button class="botao" type="submit"> Enviar Informação >> </button>
+            </fieldset>
+        </form>
+
+        <br>
+        
+            <div class="campo">
+                <h2> <strong> Seu bairro precisa do quê? Relate aqui. </strong> </h2>
+            </div>
+<br>
+        <form action="Site Integrador.php" method="POST">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label> <strong> Nome do Bairro: </strong> </label>
+                    <input type="text" name="nomedobairro2" id="nomedobairro2" required>
+                </div>
+
+                <div class="campo">
+                <label> <strong> O que seu bairro precisa? </strong> </label>
+                <textarea pow="100" style="width:26em" id="bairro" name="bairro" required></textarea>
+                
+
+                </div>
+                <button class="botao" type="submit"> Enviar Informação >> </button>
+            </fieldset>
+        </form>
+        
+        
+
+        <h1> Causas Sociais </h1>
+        <br>
+        <image src="imagens.html/imagem para nosso site.jpg" alt="Imagem de uma jovem garota com olhos fechados e de cabelo curto, vestindo um casaco xadrez de cor azul claro. Ela está abraçando um cachorrinho e beijando-o em sinal de carinho e muito afeto." height="500px" width="800px">
+            <br>
+        <p> Por definição, causas sociais são projetos que pessoas defendem para combater um determinado problema social e, com base nisso, apoiamos o resgate de animais abandonados. Saiba agora o que fazer para ajudar também! </p> 
+
+        <p> Infelizmente no nosso dia-a-dia, nos deparamos com muitos pets e gatos abandonados e, para quem ama os animais, se deparar com essa situação pode ser algo bastante triste e angustiante; esses animais estão constantemente sujeitos a problemas e a maus tratos e dessa forma é essencial fazer o resgate do animal com segurança para que possam ter uma vida melhor.</p>
+        <p> Se você se interessa pela causa, nos ajude com informações para que possamos amparar esses animaizinhos indefesos.</p>
+
+        <div class="campo">
+            <h2> <strong> Encontrou um pet ou um gato? Relate aqui. </strong> </h2>
+
+        </div>
+        <br>
+    <form action="Site Integrador.php" method="POST">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label> <strong> Local em que o animal foi encontrado: </strong> </label>
+                <input type="text" name="animal" id="animal" required>
+            </div>
+            
+            <div class="campo">
+                <label> <strong> Último horário de aparição do animal: </strong> </label>
+                <input type="text" name="ultimo" id="ultimo" required>
+            </div>
+
+            <div class="campo">
+                <label> <strong> Situação em que o animal se encontra: </strong> </label>
+                <textarea pow="100" style="width:26em" id="situacao" name="situacao" required></textarea>
+            </div>
+            <button class="botao" type="submit"> Enviar Informação >> </button>
+</fieldset>
+    </form>
+
+
+
+    <br>
+
+    <div class="campo">
+        <h2> <strong> Deixe um comentário </strong> </h2>
+        <br>
+        <h3> O seu endereço de e-mail não será publicado. </h3>
+        <h3> Campos obrigatórios são marcados com * </h3>
+        </div>
+<br>
+        
+        <form action="Site Integrador.php" method="POST">
+            
+                <div class="campo">
+                    <label for="digite aqui"> <strong> Digite aqui... </strong> </label required>
+                    <textarea pow="100" style="width:26em"  id="comentario" name="comentario" required></textarea> 
+<br>
+                <div class="campo">
+                    <label for="nome"> <strong> Nome* </strong> </label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"> <strong> Sobrenome* </strong> </label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+
+                </div>
+
+                <div class="campo">
+                    <label for="e-mail"> <strong> E-mail* </strong> </label>
+                    <input type="e-mail" name="email" id="email" required>
+                </div>
+<br>
+                <button class="botao" type="submit"> Enviar Comentário >> </button>
+
+            </form>
+
+
+
+            
+        
+        
+
+        <h3 class="destaque5"> Mais Posts Relacionados </h3>
+        <p class="destaque5"> <a href="https://noticias.buscavoluntaria.com.br/confira-35-projetos-que-defendem-a-causa-animal/#:~:text=As%20ONGs%20tendem%20a%20ajudar,que%20protegem%20e%20ajudam%20pets." target="_blank"> Causa Animal </a> </p>
+        <p class="destaque5"> <a href="https://emfoco.anchieta.br/2018/08/14/como-melhorar-o-mundo-a-partir-do-meu-bairro/" target="_blank"> Como melhorar o mundo a partir do meu bairro? </a> </p>
+        <p class="destaque5"> <a href="https://www.morungaba.sp.gov.br/" target="_blaank"> Prefeitura de Morungaba </a> </p>
+
+
+
+
+    </body>
+</html>
